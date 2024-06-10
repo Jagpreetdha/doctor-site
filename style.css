@@ -1,0 +1,183 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+header{
+  background-color: #045D6A;
+}
+.contact{
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 12px 23px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact img{
+  width: 12px;
+  filter: brightness(0) invert(1);
+}
+.contact-details{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-basis: 80%;
+}
+.contact-details span{
+  color: white;
+}
+.phone,.address,.time{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.phone img,.address img,.time img{
+ margin-bottom: 2px;
+}
+.social-media{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+body > header > div > div.social-media > img:nth-child(1){
+  height: 13px;
+}
+nav{
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 24px 23px 8px 23px;
+  display: flex;
+  align-items: center;
+ 
+}
+nav h2{
+  margin: 0;
+  font-size: 2.5rem;
+  flex-grow: 4;
+}
+nav div{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-grow: 1;
+}
+nav div a{
+  text-decoration-line: none ;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+body > nav > div > a:nth-child(5){
+  border: 3px solid skyblue;
+  padding: 12px 24px;
+}
+main{
+  background-image: url(./pexels-rdne-stock-project-6129685.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+
+}
+.main-container{
+  max-width: 700px;
+  display: flex;
+  padding-left: 200px;
+  padding-top: 70px;
+  flex-direction: column;
+}
+.main-container span{
+  color: white;
+  font-size: 1.1rem;
+}
+.main-container h3{
+  font-size: 3rem;
+  margin-block: 6px;
+  font-weight: 900;
+}
+.main-container button{
+  margin-top: 4px;
+  background-color: #38cde2;
+  color: white;
+  width: 130px;
+  padding: 9px 5px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.form-container{
+  max-width: 241px;
+  min-height: 341px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 24px 24px 24px 18px;
+  border-radius: 6px;
+  margin-left: 12rem;
+  margin-top: -84px;
+  background-color: white;
+ position: relative;
+ 
+}
+form p{
+  font-weight: 900;
+  color: gray;
+  font-size: 1.2rem;
+}
+form p span {
+  font-size: 2rem;
+  color: black;
+}
+form div{
+ 
+  width: 200px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+form div input,select{
+  width: 100%;
+ 
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  overflow: hidden/;
+}
+form div select{
+padding-left: 5px;
+}
+form button{
+  display: inline-block;
+  max-width: 200px;
+  width: 100%; 
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  background-color: #02A1B9;
+  color: white;
+  border: none;
+}
+section{
+  display: flex;
+  gap: 50px;
+}
+.text-content{
+  max-width: 300px;
+  width: 100%;
+}
+body > section > div.text-content > p:nth-child(1){
+  opacity: 0.5;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.text-content h4{
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+body > section > div.text-content > p:nth-child(3){
+  margin-top: 8px;
+  opacity: 0.7;
+}
